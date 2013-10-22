@@ -1,0 +1,14 @@
+/* gallery */
+.gallery {position:relative;}
+.gallery .desc {position:absolute;}
+.gallery img {vertical-align:top;}
+.gallery h2 {overflow:hidden; color:#fff; margin:0 0 0px;}
+.gallery h2 span {float:left;}
+.gallery .pager {width:135px; height:25px; padding-top:15px; position:relative; overflow:hidden; top:-30px; z-index:100; opacity:0.9;}
+.gallery .pager .frame {position:relative; float:left; overflow:hidden;}
+.gallery #pager {position:relative; float:left; left:-50%;}
+.gallery #pager a {float:left; width:10px; height:10px; text-indent:-9999px; overflow:hidden; background:url(../images/bg-pager.png) no-repeat;
+margin:0 6px;}
+.gallery #pager .activeSlide, .gallery #pager a:hover {background-position:0 -10px;}
+/* end gallery */
+

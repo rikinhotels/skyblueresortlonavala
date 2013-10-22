@@ -1,0 +1,21 @@
+.CCR h1{margin:0px; padding:0px; font-family:Tahoma; font-size:17px; color:#484848; font-weight:normal;}
+.CCR h2{margin:0px; padding:0px; font-family:Arial; font-size:11.5px; color:#047AB0; font-weight:bold;}
+.CCR h3{margin:0px; padding:0px; font-family:Arial; font-size:13.5px; color:#2f2f2f; font-weight:normal; line-height:1.5em; text-align:justify;}
+
+/*............Sprite Class.............*/
+.CarIcon{width:24px; height:24px; background:url(../images/ccr_sprite_image.png); background-position:0px 0px;}
+
+#CCRMainWrapper{width:880px; margin:auto;}
+#CCRContentBox{width:880px; float:left;}
+#SearchPanel{width:450px; float:left; background:#f8f8f8; border:solid 1px #f0f0f0; -khtml-border-radius:5px; border-radius:5px; padding-left:10px;}
+
+#CCRIndiaOverviewBox{width:405px; height:260px; float:right; border:solid 1px #f0f0f0; -khtml-border-radius:5px; border-radius:5px}
+#CCRIndiaOverviewTitle{width:395px; height:45px; line-height:42px; float:left; padding-left:10px; background:url(../images/tab_bg.jpg) repeat-x;}
+#CCRIndiaOverviewInfo{width:385px; float:left; padding:10px;}
+
+#MainCityBox{width:880px; float:left; background:#f7f7f7; border-top:solid 1px #f4e5e5; padding:5px 0; margin-top:10px;}
+.CityBox{width:141px; float:left; padding-left:5px;}
+.CityTitle{width:141px; float:left; padding:5px 0;}
+.CityName{width:141px; float:left; padding:5px 0;}
+.CityName a{ display:block; text-decoration:none; font-family:Arial; font-size:12px; color:#464646; line-height:25px;}
+.CityName a:hover{text-decoration:underline; color:#047AB0;}
